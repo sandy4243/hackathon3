@@ -61,4 +61,11 @@ body {
     display: inline;
     padding: 2%;
     margin-top: 5%;
+    width: 200px;
+    font-size: 15px;
+    background-color: rgb(34, 34, 25);
+  }
+ li p{
+      background-color: rgb(8, 29, 92);
+      text-align: center;
   }
