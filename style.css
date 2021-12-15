@@ -1,0 +1,71 @@
+body {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+  }
+  .info{
+    background-image: url(https://64.media.tumblr.com/28d185b43d895dbec71107318476387a/tumblr_inline_pfsahx9onT1te25u3_540.gifv);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 1000px;
+    background-position: 0 -100px;
+    position: relative;
+    top: 0;
+  }
+  .info-content {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    max-width: 50%;
+    z-index: 10;
+    padding: 1%;
+    margin: 0 0 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .header{
+      position: absolute;
+      background-color: rgb(34, 26, 145);
+      top: 0%;
+      z-index: 10;
+      width: 100%;
+      height: 75px;
+      display: inline-flex;
+      float: inline-end;
+  }
+  .list_logo{
+      background-color: white;
+      max-width: 500px;
+      max-height: 100px;
+  }
+ #reefcheck_logo{
+      background-color: black;
+  }
+  .links{
+    position: absolute;
+    left: 25%;
+    max-width: 50%;
+    z-index: 10;
+    padding: 1%;
+    margin: 0 0 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    font-size: 30px;
+    text-align: center;
+  }
+  li{
+    list-style: none;
+    display: inline;
+    padding: 2%;
+    margin-top: 5%;
+    width: 200px;
+    font-size: 15px;
+    background-color: rgb(34, 34, 25);
+  }
+ li p{
+      background-color: rgb(8, 29, 92);
+      text-align: center;
+  }
