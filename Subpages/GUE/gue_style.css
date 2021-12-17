@@ -53,3 +53,7 @@ img {
   #Trainings{
       background-color: deepskyblue;
   }
+
+  #divecenters{
+    font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px;
+  }
