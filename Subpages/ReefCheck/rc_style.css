@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.header{
+    position: absolute;
+    background-color: rgb(34, 26, 145);
+    top: 0%;
+    z-index: 10;
+    width: 100%;
+    height: 75px;
+    display: inline-flex;
+    float: inline-end;
+}
+
+#reefcheck_intro{
+    background-image: url(https://im2.ezgif.com/tmp/ezgif-2-209c072484.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 1000px;
+    background-position: 0 -100px;
+    position: relative;
+    top: 0;
+  }
+#reefcheck_intro_content{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    max-width: 50%;
+    z-index: 10;
+    padding: 1%;
+    margin: 0 0 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+#kelp_program{
+    display: flex;
+    background-color:  rgb(34, 26, 145);
+}
+
+#kelp_text{
+align-self: right;
+font-size: 30px;
+max-width: 30%;
+padding-left: 5%;
+padding-top: 5%
+}
+
+#kelp_image{
+    width: 50%;
+}
+
+#other_activities{
+    display: flex;
+    background-color:  rgb(34, 26, 145);
+}
+
+#other_activities_text{
+    align-self: right;
+    font-size: 30px;
+    max-width: 30%;
+    padding-left: 5%;
+    padding-top: 5%
+}
+#other_image{
+    max-width: 50%;
+}
+
+ul{
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+#training_program{
+    display: flex;
+    background-color:  rgb(34, 26, 145);
+}
+
+#training_text{
+align-self: right;
+font-size: 30px;
+max-width: 30%;
+padding-left: 5%;
+padding-top: 5%
+}
+
+#training_image{
+    width: 50%;
+}
+#support{
+    display: flex;
+    background-color:  rgb(34, 26, 145);
+}
+#support_text{
+    align-self: right;
+    font-size: 30px;
+    max-width: 30%;
+    padding-left: 5%;
+    padding-right: 15%;
+    padding-top: 5%
+}
+#support_image{
+    width: 50%;
+    justify-self: right;
+}
